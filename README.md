@@ -92,7 +92,10 @@ Video tutorials and presentations using Flowbite:
 
 ## Copyright and license
 
-Flowbite Icons is free and open-source under the MIT License and the "Flowbite name" and logos are trademarks of Bergside Inc.
+Flowbite Icons is free and open-source under the MIT License.
 
 - 📝 [Read about the licensing terms](https://flowbite.com/docs/getting-started/license/)
+
+The "Flowbite name" and logos are trademarks of Bergside Inc.
+
 - 📀 [Brand guideline and trademark usage agreement](https://flowbite.com/brand/)
