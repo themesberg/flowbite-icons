@@ -99,3 +99,9 @@ Flowbite Icons is free and open-source under the MIT License.
 The "Flowbite name" and logos are trademarks of Bergside Inc.
 
 - 📀 [Brand guideline and trademark usage agreement](https://flowbite.com/brand/)
+
+## Authors and credits
+
+- designed by [Evelyne Krall](https://twitter.com/EvelyneKrall)
+- integration in Figma by [Robert Tanislav](https://twitter.com/roberttanislav)
+- coding the interface by [Zoltán Szőgyényi](https://twitter.com/zoltanszogyenyi)
