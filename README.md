@@ -14,7 +14,7 @@
 
 ## Getting started
 
-The quickest way of you can start using these icons is by going to the [flowbite.com/icons/](https://flowbite.com/icons/) page and copy-paste the icons as raw SVG or JSX (React) by selecting the "copy as" option. You can also configure the icon size and stroke width via our custom interface.
+The quickest way of you can start using these icons is by going to the [Flowbite Icons](https://flowbite.com/icons/) page and copy-paste the icons as raw SVG or JSX (React) by selecting the "copy as" option. You can also configure the icon size and stroke width via our custom interface.
 
 <a href="https://flowbite.com/icons/">
   <img src="https://github.com/themesberg/flowbite-icons/assets/8052108/e197678c-b10a-42ce-97f2-14f35b47f4dc" alt="Flowbite Icons"/>
