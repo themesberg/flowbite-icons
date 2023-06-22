@@ -62,7 +62,7 @@ You can use our custom interface on [Flowbite Icons](https://flowbite.com/icons/
 
 If you want to use Flowbite Icons inside your Figma project you can duplicate the following file from the community:
 
-🎨 [Get access to Flowbite Icons in Figma]([https://flowbite.com/figma/](https://www.figma.com/community/file/1253280241668899805/Flowbite-Icons))
+🎨 [Flowbite Icons in Figma](https://www.figma.com/community/file/1253280241668899805/Flowbite-Icons)
 
 ## Flowbite Blocks
 
