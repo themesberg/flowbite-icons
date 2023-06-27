@@ -58,6 +58,26 @@ To start using the icons inside a React or Next.js project you will need to upda
 
 You can use our custom interface on [Flowbite Icons](https://flowbite.com/icons/) to select if you want the raw SVG or JSX (React) format and these changes will be applied automatically.
 
+## Svelte
+
+Thanks to the open-source community from Svelte - the Flowbite Icons collection is now also available to be used in Svelte projects by installing the official [Svelte icons package](https://github.com/themesberg/flowbite-svelte-icons) built by [shinokada](https://github.com/shinokada).
+
+```sh
+npm i -D flowbite-svelte-icons
+```
+
+Import the icons from the freshly installed package:
+
+```html
+<script>
+  import { AddressCardSolid } from 'flowbite-svelte-icons';
+</script>
+
+<AddressCardSolid />
+```
+
+Learn more about usage by going to the [Flowbite Svelte Icons](https://github.com/themesberg/flowbite-svelte-icons) repository on GitHub.
+
 ## Figma support
 
 If you want to use Flowbite Icons inside your Figma project you can duplicate the following file from the community:
