@@ -66,17 +66,29 @@ Thanks to the open-source community from Svelte - the Flowbite Icons collection 
 npm i -D flowbite-svelte-icons
 ```
 
+To make sure the classes used by flowbite-svelte-icons are included by the Tailwindcss, add the following to tailwind.config.cjs.
+
+```cjs
+const config = {
+  content: [
+       // more lines
+        "./node_modules/flowbite-svelte-icons/**/*.{html,js,svelte,ts}",
+    ],
+    // more lines
+} 
+```
+
 Import the icons from the freshly installed package:
 
 ```html
 <script>
-  import { AddressCardSolid } from 'flowbite-svelte-icons';
+  import { Icon } from 'flowbite-svelte-icons';
 </script>
 
-<AddressCardSolid />
+<Icon name="address-card-solid" />
 ```
 
-Learn more about usage by going to the [Flowbite Svelte Icons](https://github.com/themesberg/flowbite-svelte-icons) repository on GitHub.
+Learn more about usage by going to the [Flowbite Svelte Icons](https://flowbite-svelte-icons.vercel.app/) repository on GitHub.
 
 ## Figma support
 
