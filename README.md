@@ -80,55 +80,32 @@ Learn more about usage by going to the [Flowbite Svelte Icons](https://github.co
 
 ## Laravel & Blade support
 
-Thanks to the open-source community you can now also install and use the Flowbite Icons collection inside a Laravel project as Blade components based on the [Flowbite Blade Icons](https://github.com/ncoo-dev/blade-flowbite-icons) repository built by [Dominique Thomas](https://github.com/domthomas-dev).
+Thanks to the open-source community you can now also install and use the Flowbite Icons collection inside a Laravel project as Blade components based on the [Flowbite Blade Icons](https://github.com/themesberg/flowbite-blade-icons) repository built by [Dominique Thomas](https://github.com/domthomas-dev).
 
-## Installation
 
-```bash
-composer require ncoo-dev/blade-flowbite-icons
-```
-
-## Updating
-
-Please refer to [`the upgrade guide`](UPGRADE.md) when updating the library.
-
-## Blade Icons
-
-Blade Flowbite Icons uses Blade Icons under the hood. Please refer to [the Blade Icons readme](https://github.com/blade-ui-kit/blade-icons) for additional functionality. We also recommend to [enable icon caching](https://github.com/blade-ui-kit/blade-icons#caching) with this library.
-
-## Configuration
-
-Blade Flowbite Icons also offers the ability to use features from Blade Icons like default classes, default attributes, etc. If you'd like to configure these, publish the `blade-flowbite-icons.php` config file:
+### Installation
 
 ```bash
-php artisan vendor:publish --tag=blade-flowbite-icons-config
+composer require themesberg/flowbite-blade-icons
 ```
 
-## Usage
+### Usage
 
 Icons can be used as self-closing Blade components which will be compiled to SVG icons:
 
 ```blade
-<x-fbi-outline.general.adjustments-horizontal/>
+<x-fwb-o-adjustments-horizontal />
 ```
 
-You can also pass classes to your icon components:
+For the solid version : 
 
 ```blade
-<x-fbi-outline.general.adjustments-horizontal class="w-6 h-6 text-gray-500"/>
+<x-fwb-s-adjustments-horizontal />
 ```
 
-And even use inline styles:
+### See more
 
-```blade
-<x-fbi-outline.general.adjustments-horizontal style="color: #555"/>
-```
-
-The solid icons can be referenced like this:
-
-```blade
-<x-fbi-solid.general.adjustments-horizontal/>
-```
+You can see more usages and configurations on the [Flowbite Blade Icons](https://github.com/themesberg/flowbite-blade-icons) repository.
 
 ## Figma support
 
