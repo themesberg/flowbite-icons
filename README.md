@@ -82,6 +82,7 @@ Learn more about usage by going to the [Flowbite Svelte Icons](https://github.co
 
 Thanks to the open-source community you can now also install and use the Flowbite Icons collection inside a Laravel project as Blade components based on the [Flowbite Blade Icons](https://github.com/themesberg/flowbite-blade-icons) repository built by [Dominique Thomas](https://github.com/domthomas-dev).
 
+
 ### Installation
 
 ```bash
