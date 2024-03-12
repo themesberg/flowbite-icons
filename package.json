@@ -1,0 +1,30 @@
+{
+  "name": "flowbite-icons",
+  "description": "Official Flowbite Icons library",
+  "keywords": [
+    "flowbite",
+    "icons",
+    "svg"
+  ],
+  "homepage": "https://flowbite.com/icons",
+  "bugs": "https://github.com/themesberg/flowbite-icons/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/themesberg/flowbite-icons.git"
+  },
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "format": "prettier . --write",
+    "format:check": "prettier .",
+    "generate-manifest": "bun run scripts/generate-manifest.ts",
+    "typecheck": "tsc"
+  },
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "4.1.1",
+    "@types/bun": "^1.0.6",
+    "prettier": "3.2.5",
+    "prettier-plugin-packagejson": "2.4.11",
+    "typescript": "5.3.3"
+  }
+}
