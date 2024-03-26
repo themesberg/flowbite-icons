@@ -16,7 +16,7 @@
   "type": "module",
   "scripts": {
     "format": "prettier . --write",
-    "format:check": "prettier .",
+    "format:check": "prettier . --check",
     "generate-manifest": "bun run scripts/generate-manifest.ts",
     "typecheck": "tsc"
   },
