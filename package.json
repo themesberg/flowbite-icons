@@ -1,5 +1,6 @@
 {
   "name": "flowbite-icons",
+  "version": "1.2.0",
   "description": "Official Flowbite Icons library",
   "keywords": [
     "flowbite",
@@ -18,11 +19,15 @@
     "format": "prettier . --write",
     "format:check": "prettier . --check",
     "generate-manifest": "bun run scripts/generate-manifest.ts",
-    "typecheck": "tsc"
+    "release": "changeset publish",
+    "typecheck": "tsc",
+    "version": "changeset version"
   },
   "devDependencies": {
+    "@changesets/changelog-github": "0.5.0",
+    "@changesets/cli": "2.27.1",
     "@ianvs/prettier-plugin-sort-imports": "4.1.1",
-    "@types/bun": "^1.0.6",
+    "@types/bun": "1.0.6",
     "prettier": "3.2.5",
     "prettier-plugin-packagejson": "2.4.11",
     "typescript": "5.3.3"
