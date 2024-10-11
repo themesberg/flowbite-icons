@@ -2,4 +2,9 @@
 "flowbite-icons": minor
 ---
 
-add 65 new icons
+Add 65 new icons:
+
+- datatable
+- WYSIWYG
+- brands
+- some more general icons
