@@ -1,5 +1,16 @@
 # flowbite-icons
 
+## 1.3.0
+
+### Minor Changes
+
+- [#49](https://github.com/themesberg/flowbite-icons/pull/49) [`00231cc`](https://github.com/themesberg/flowbite-icons/commit/00231ccf788710f45f2cefd0a983a7ea0beecdec) Thanks [@SutuSebastian](https://github.com/SutuSebastian)! - Add 65 new icons:
+
+  - datatable
+  - WYSIWYG
+  - brands
+  - some more general icons
+
 ## 1.2.1
 
 ### Patch Changes
